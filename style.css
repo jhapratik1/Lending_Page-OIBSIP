@@ -1,0 +1,68 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    /* Remove background color so canvas is visible */
+    background: transparent;
+    color: #fff; /* Make all text white for visibility on black background */
+}
+
+header {
+    background: rgba(0,0,0,0.7); /* Dark semi-transparent background */
+    color: #ffffff;
+    padding: 30px 0 20px 0;
+    text-align: center;
+    text-shadow: 0 2px 8px #000;
+    border-bottom: 2px solid #fff2;
+    border-radius: 0 0 16px 16px;
+    box-shadow: 0 4px 24px #0008;
+}
+
+h1, h2, h3 {
+    margin: 0;
+    color: #fff;
+    text-shadow: 0 2px 8px #000;
+}
+
+nav {
+    margin: 20px 0;
+}
+
+nav a {
+    color: #ffffff;
+    text-decoration: none;
+    margin: 0 15px;
+    text-shadow: 0 2px 8px #000;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+main {
+    padding: 20px;
+    background: rgba(0,0,0,0.4); /* Slight dark overlay for readability */
+    border-radius: 10px;
+    max-width: 800px;
+    margin: 30px auto;
+    box-shadow: 0 4px 24px #0008;
+}
+
+section {
+    margin-bottom: 30px;
+}
+
+footer {
+    text-align: center;
+    padding: 18px 0;
+    background: rgba(0,0,0,0.7); /* Dark semi-transparent background */
+    color: #ffffff;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    text-shadow: 0 2px 8px #000;
+    border-top: 2px solid #fff2;
+    border-radius: 16px 16px 0 0;
+    box-shadow: 0 -4px 24px #0008;
+    font-size: 1.1em;
+}
