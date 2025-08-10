@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page Project for Beginners | Simple Website</title>
+    <meta name="description" content="A beginner-friendly landing page project using HTML, CSS, and JavaScript. Learn how to structure web pages, style elements, and add interactivity.">
+    <link rel="stylesheet" href="styles/style.css">
+    <style>
+        /* Canvas for animated background (paper planes) */
+        #bg-animation {
+            position: fixed; /* Fix canvas to viewport */
+            top: 0;
+            left: 0;
+            z-index: -1; /* Place canvas behind content */
+            width: 100vw;
+            height: 100vh;
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <!-- Animated background canvas (paper planes) -->
+    <canvas id="bg-animation"></canvas>
+
+    <!-- Header section: Title and subtitle -->
+    <header>
+        <h1>Landing Page Project</h1>
+        <p class="subtitle">A simple and creative landing page using HTML, CSS, and JavaScript</p>
+    </header>
+
+    <!-- Main content: About, Importance, and Contact sections -->
+    <main>
+        <!-- About section: Project description -->
+        <section>
+            <h2>About</h2>
+            <p>This project is designed for beginners to practice web development fundamentals. You'll learn how to create columns, divide sections, arrange items, and style your page using CSS. Use your creativity to make the page visually appealing while ensuring proper alignment and spacing.</p>
+        </section>
+        <!-- Importance section: Why web development matters -->
+        <section>
+            <h2>Importance of Web Development</h2>
+            <p>
+                Web development is a crucial skill in today's digital world. It enables individuals and businesses to create interactive, user-friendly websites that connect people, share information, and offer services globally. Learning web development opens doors to endless opportunities, from building personal portfolios to launching online businesses. It fosters problem-solving, creativity, and technical proficiency, allowing developers to turn ideas into reality. As technology evolves, web development remains at the forefront, driving innovation and shaping how we communicate, learn, and work online. Mastering web development empowers you to contribute to the digital landscape and adapt to the ever-changing demands of the modern world.
+            </p>
+        </section>
+        <!-- Contact section: How to reach out -->
+        <section>
+            <h2>Contact</h2>
+            <h3>We will love to hear from you!</h3>
+            <p>Contact us on our email.</p>
+            <p>If you have any questions, feel free to reach out!</p>
+        </section>
+    </main>
+
+    <!-- Footer section: Copyright and contact email -->
+    <footer>
+        <p>&copy; 2023 OIBSIP</p>
+        <p>Contact: <a href="mailto:pratikjha249@gmail.com">pratikjha249@gmail.com</a></p>
+    </footer>
+
+    <!-- JavaScript for animated background -->
+    <script src="scripts/main.js"></script>
+</body>
+</html>
